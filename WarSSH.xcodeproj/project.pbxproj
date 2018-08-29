@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CC9B7D72130B6500090D43B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC9B7D62130B6500090D43B /* Player.swift */; };
+		8CDEFF1921307C0700F68B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEFF1821307C0700F68B82 /* AppDelegate.swift */; };
+		8CDEFF1B21307C0700F68B82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEFF1A21307C0700F68B82 /* ViewController.swift */; };
+		8CDEFF1E21307C0700F68B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDEFF1C21307C0700F68B82 /* Main.storyboard */; };
+		8CDEFF2021307C0900F68B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CDEFF1F21307C0900F68B82 /* Assets.xcassets */; };
+		8CDEFF2321307C0900F68B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDEFF2121307C0900F68B82 /* LaunchScreen.storyboard */; };
+		8CDEFF2B21307CA200F68B82 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEFF2A21307CA200F68B82 /* NetworkController.swift */; };
+		8CDEFF2D2130827600F68B82 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEFF2C2130827600F68B82 /* Deck.swift */; };
+		8CDEFF2F2130855A00F68B82 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEFF2E2130855A00F68B82 /* Card.swift */; };
+		8CDEFF312130863600F68B82 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEFF302130863600F68B82 /* GameController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CC9B7D62130B6500090D43B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8CDEFF1521307C0700F68B82 /* WarSSH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarSSH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDEFF1821307C0700F68B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CDEFF1A21307C0700F68B82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CDEFF1D21307C0700F68B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CDEFF1F21307C0900F68B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CDEFF2221307C0900F68B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CDEFF2421307C0900F68B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CDEFF2A21307CA200F68B82 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		8CDEFF2C2130827600F68B82 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		8CDEFF2E2130855A00F68B82 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8CDEFF302130863600F68B82 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CDEFF1221307C0700F68B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CDEFF0C21307C0700F68B82 = {
+			isa = PBXGroup;
+			children = (
+				8CDEFF1721307C0700F68B82 /* WarSSH */,
+				8CDEFF1621307C0700F68B82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CDEFF1621307C0700F68B82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CDEFF1521307C0700F68B82 /* WarSSH.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CDEFF1721307C0700F68B82 /* WarSSH */ = {
+			isa = PBXGroup;
+			children = (
+				8CDEFF1821307C0700F68B82 /* AppDelegate.swift */,
+				8CDEFF1A21307C0700F68B82 /* ViewController.swift */,
+				8CDEFF2C2130827600F68B82 /* Deck.swift */,
+				8CDEFF2E2130855A00F68B82 /* Card.swift */,
+				8CC9B7D62130B6500090D43B /* Player.swift */,
+				8CDEFF302130863600F68B82 /* GameController.swift */,
+				8CDEFF2A21307CA200F68B82 /* NetworkController.swift */,
+				8CDEFF1C21307C0700F68B82 /* Main.storyboard */,
+				8CDEFF1F21307C0900F68B82 /* Assets.xcassets */,
+				8CDEFF2121307C0900F68B82 /* LaunchScreen.storyboard */,
+				8CDEFF2421307C0900F68B82 /* Info.plist */,
+			);
+			path = WarSSH;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CDEFF1421307C0700F68B82 /* WarSSH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDEFF2721307C0900F68B82 /* Build configuration list for PBXNativeTarget "WarSSH" */;
+			buildPhases = (
+				8CDEFF1121307C0700F68B82 /* Sources */,
+				8CDEFF1221307C0700F68B82 /* Frameworks */,
+				8CDEFF1321307C0700F68B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarSSH;
+			productName = WarSSH;
+			productReference = 8CDEFF1521307C0700F68B82 /* WarSSH.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CDEFF0D21307C0700F68B82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Skylar Hansen";
+				TargetAttributes = {
+					8CDEFF1421307C0700F68B82 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8CDEFF1021307C0700F68B82 /* Build configuration list for PBXProject "WarSSH" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CDEFF0C21307C0700F68B82;
+			productRefGroup = 8CDEFF1621307C0700F68B82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CDEFF1421307C0700F68B82 /* WarSSH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CDEFF1321307C0700F68B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDEFF2321307C0900F68B82 /* LaunchScreen.storyboard in Resources */,
+				8CDEFF2021307C0900F68B82 /* Assets.xcassets in Resources */,
+				8CDEFF1E21307C0700F68B82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CDEFF1121307C0700F68B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDEFF2D2130827600F68B82 /* Deck.swift in Sources */,
+				8CDEFF312130863600F68B82 /* GameController.swift in Sources */,
+				8CDEFF1B21307C0700F68B82 /* ViewController.swift in Sources */,
+				8CC9B7D72130B6500090D43B /* Player.swift in Sources */,
+				8CDEFF2F2130855A00F68B82 /* Card.swift in Sources */,
+				8CDEFF1921307C0700F68B82 /* AppDelegate.swift in Sources */,
+				8CDEFF2B21307CA200F68B82 /* NetworkController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CDEFF1C21307C0700F68B82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CDEFF1D21307C0700F68B82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CDEFF2121307C0900F68B82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CDEFF2221307C0900F68B82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CDEFF2521307C0900F68B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CDEFF2621307C0900F68B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CDEFF2821307C0900F68B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9YMV3Q9VL;
+				INFOPLIST_FILE = WarSSH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skylarhansen.WarSSH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CDEFF2921307C0900F68B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9YMV3Q9VL;
+				INFOPLIST_FILE = WarSSH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skylarhansen.WarSSH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CDEFF1021307C0700F68B82 /* Build configuration list for PBXProject "WarSSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDEFF2521307C0900F68B82 /* Debug */,
+				8CDEFF2621307C0900F68B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CDEFF2721307C0900F68B82 /* Build configuration list for PBXNativeTarget "WarSSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDEFF2821307C0900F68B82 /* Debug */,
+				8CDEFF2921307C0900F68B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CDEFF0D21307C0700F68B82 /* Project object */;
+}
