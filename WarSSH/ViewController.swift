@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var computerCardImageView: UIImageView!
     @IBOutlet weak var userCardImageView: UIImageView!
     @IBOutlet weak var winLabel: UILabel!
-
+    @IBOutlet weak var compCountLabel: UILabel!
+    @IBOutlet weak var userCountLabel: UILabel!
+    
     var user: Player?
     var computer: Player?
     var gameState: GameState = .regular
@@ -96,5 +98,8 @@ class ViewController: UIViewController {
         case .war:
             playWar()
         }
+        
+        userCountLabel.text = "\(user.cards.count)"
+        compCountLabel.text = "\(comp.cards.count)"
     }
 }
